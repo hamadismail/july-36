@@ -103,3 +103,72 @@ section {
   line-height: 24px;
   color: rgba(14, 14, 14, 0.7);
 }
+
+/* Vision Section */
+.vision h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin-bottom: 24px;
+}
+.vision .bdvision {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+.vision .card-container {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+.vision .card-container .card {
+  padding: 32px;
+  border-radius: 16px;
+  min-width: 410px;
+}
+.vision .card-container .card h6 {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 0.8);
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+.vision .card-container .card p {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  max-width: 346px;
+  margin-bottom: 24px;
+}
+.vision .card-container .card button {
+  border-radius: 8px;
+  padding: 11px 20px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+}
+.vision .quote {
+  padding: 48px 24px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+.vision .quote img {
+  position: absolute;
+  top: 15%;
+}
+.vision .quote p {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.vision .quote h6 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  color: rgba(14, 14, 14, 0.8);
+  margin-top: 12px;
+  margin-bottom: -12px;
+}
