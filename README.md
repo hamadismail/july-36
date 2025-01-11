@@ -26,15 +26,6 @@ Bangladesh 2.0 is a responsive website showcasing the vision, challenges, and in
    ```
 3. Open ```index.html``` in your browser to view the website
 
-## Folder Structure
-/
-├── index.html   # Main HTML file
-├── css/
-│   └── styles.css   # Main CSS file
-└── assets/          # Images and Icons used in the website
-
-# Bangladesh 2.0 - Building a brighter future for all.
-
 
 
 
