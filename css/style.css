@@ -12,6 +12,11 @@ main {
 section {
   margin-bottom: 80px;
 }
+#btn:hover {
+  cursor: pointer;
+  background-color: #063720;
+  transition: 0.7s;
+}
 
 /* Top Banner Section */
 .top-banner {
@@ -142,6 +147,30 @@ section {
   font-size: 16px;
   font-weight: 600;
   border: none;
+}
+.vision #btn-1 {
+  background-color: #5490f5;
+}
+.vision #btn-1:hover {
+  cursor: pointer;
+  background-color: #0a357f;
+  transition: 0.7s;
+}
+.vision #btn-2 {
+  background-color: #09a15c;
+}
+.vision #btn-2:hover {
+  cursor: pointer;
+  background-color: #063a22;
+  transition: 0.7s;
+}
+.vision #btn-3 {
+  background-color: #ffc239;
+}
+.vision #btn-3:hover {
+  cursor: pointer;
+  background-color: #664b0c;
+  transition: 0.7s;
 }
 .vision .quote {
   padding: 48px 24px;
@@ -382,4 +411,7 @@ footer .iconbox {
   display: flex;
   justify-content: center;
   gap: 23px;
+}
+footer .iconbox img {
+  cursor: pointer;
 }
