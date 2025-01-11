@@ -287,6 +287,16 @@ td {
   font-size: 40px;
   font-weight: bold;
   color: rgba(14, 14, 14, 0.8);
+  cursor: pointer;
+}
+.donate .donates #seleted {
+  background-color: #c6e4d6;
+}
+.donate .donates #seleted:hover {
+  background-color: #006a50;
+}
+.donate .donates h2:hover {
+  background-color: #006a50;
 }
 .donate .amount {
   display: flex;
