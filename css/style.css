@@ -426,6 +426,7 @@ footer .iconbox img {
 
 @media screen and (max-width: 768px) {
   main {
+    margin: 0;
     width: 100%;
   }
   .banner {
@@ -443,7 +444,7 @@ footer .iconbox img {
     flex-wrap: wrap;
   }
   .donate input[type='text'] {
-    padding: 20px 150px;
+    padding: 20px 60px;
     text-align: center;
     border-radius: 8px;
     font-size: 16px;
@@ -459,7 +460,7 @@ footer .iconbox img {
     align-items: center;
   }
   .newsletter .inputfield input[type='email'] {
-    padding: 16px 150px;
+    padding: 16px 60px;
     border-radius: 8px;
     text-align: center;
   }
@@ -470,5 +471,12 @@ footer .iconbox img {
   }
   .vision .quote img {
     top: 8%;
+  }
+  .opinion .table {
+    padding: 0px;
+  }
+  footer {
+    width: 100%;
+    border-radius: 8px;
   }
 }
