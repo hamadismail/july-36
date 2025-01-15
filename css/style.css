@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Fira Sans', serif;
   background-color: #f1f1f3;
 }
 main {
-  margin-left: 160px;
-  margin-right: 160px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Fira Sans', serif;
+  max-width: 1140px;
 }
 section {
   margin-bottom: 80px;
@@ -63,6 +62,7 @@ section {
   font-weight: bold;
   color: #0e0e0e;
 }
+
 .banner-content button {
   background-color: #006a50;
   border-radius: 8px;
@@ -83,12 +83,14 @@ section {
 .pillars-container {
   display: flex;
   gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .pillars .pillar {
   padding: 24px;
   background-color: #ffffff;
   border-radius: 16px;
-  max-width: 302px;
+  max-width: 219px;
 }
 .pillars .pillar h6 {
   font-size: 20px;
@@ -120,11 +122,13 @@ section {
   display: flex;
   gap: 24px;
   margin-bottom: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .vision .card-container .card {
   padding: 32px;
   border-radius: 16px;
-  min-width: 410px;
+  max-width: 300px;
 }
 .vision .card-container .card h6 {
   font-size: 20px;
@@ -265,6 +269,7 @@ td {
 }
 .news .news-container > img {
   border-radius: 24px;
+  width: 100%;
 }
 .news .news-content h2 {
   font-size: 32px;
@@ -308,6 +313,7 @@ td {
   display: flex;
   justify-content: center;
   gap: 24px;
+  flex-wrap: wrap;
 }
 .donate .donates h2 {
   padding: 41px;
@@ -414,4 +420,55 @@ footer .iconbox {
 }
 footer .iconbox img {
   cursor: pointer;
+}
+
+/* Media */
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+  }
+  .banner {
+    border-radius: 24px;
+    gap: 20px;
+    padding: 60px 20px;
+    flex-direction: column-reverse;
+  }
+  .banner-content h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0e0e0e;
+  }
+  .news .news-container {
+    flex-wrap: wrap;
+  }
+  .donate input[type='text'] {
+    padding: 20px 150px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  .donate .amount button {
+    padding: 14px 24px;
+    font-size: 14px;
+    margin-top: -22px;
+  }
+  .newsletter .inputfield {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .newsletter .inputfield input[type='email'] {
+    padding: 16px 150px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .newsletter .inputfield button {
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  .vision .quote img {
+    top: 8%;
+  }
 }
